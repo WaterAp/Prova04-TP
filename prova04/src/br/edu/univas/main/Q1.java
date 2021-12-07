@@ -29,9 +29,9 @@ public class Q1 {
 			switch(option) {
 				
 				case 1:
-					
-					register(veiculo);
 					deleteMode = false;
+					register(veiculo);
+					
 					
 					break;
 					
