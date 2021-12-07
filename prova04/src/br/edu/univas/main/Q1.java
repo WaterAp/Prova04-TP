@@ -5,7 +5,7 @@ import br.edu.univas.vo.*;
 
 public class Q1 {
 
-	static int all = 5, ig = 0, ib = 0;
+	static int all = 50, ig = 0, ib = 0;
 	static boolean deleteMode = false;
 	static Scanner ler = new Scanner(System.in);
 	
@@ -51,14 +51,14 @@ public class Q1 {
 					
 				case 4:
 					
-					System.out.println("Até mais!!!");
+					System.out.println("AtÃ© mais!!!");
 					control = false;
 					
 					break;
 			
 				default:
 					
-					System.out.println("Opção Inválida, tente novamente");
+					System.out.println("OpÃ§Ã£o InvÃ¡lida, tente novamente");
 					
 					break;
 			
@@ -75,11 +75,11 @@ public class Q1 {
 	public static void menu() {
 		
 		System.out.println("Cadastro de carros              ");
-		System.out.println("1. Cadastro de Veículo          ");
-		System.out.println("2. Listar todos os veículos     ");
-		System.out.println("3. Remover um veículo cadastrado");
+		System.out.println("1. Cadastro de VeÃ­culo          ");
+		System.out.println("2. Listar todos os veÃ­culos     ");
+		System.out.println("3. Remover um veÃ­culo cadastrado");
 		System.out.println("4. Sair                         ");
-		System.out.println("Escolha uma opção.              ");
+		System.out.println("Escolha uma opÃ§Ã£o.              ");
 		
 		
 	}
@@ -94,13 +94,13 @@ public class Q1 {
 		System.out.println("Agora por favor digite a cor do veiculo: ");
 		novoVeiculo.cor = ler.nextLine();
 		
-		System.out.println("Agora por favor digite o ano de fabricação do veiculo: ");
+		System.out.println("Agora por favor digite o ano de fabricaÃ§Ã£o do veiculo: ");
 		novoVeiculo.anoFab = ler.nextInt();
 		
 		System.out.println("Agora por favor digite o ano do modelo: ");
 		novoVeiculo.anoModel = ler.nextInt();
 		
-		System.out.println("Informe a potência do motor desse veiculo: ");
+		System.out.println("Informe a potÃªncia do motor desse veiculo: ");
 		novoVeiculo.motor1.potency = ler.nextFloat();
 		
 		System.out.println("Informe quantos cilindros esse motor possui: ");
@@ -130,7 +130,7 @@ public class Q1 {
 			
 		} else {
 			
-			System.out.println("Não há mais espaço disponivel!\n");
+			System.out.println("NÃ£o hÃ¡ mais espaÃ§o disponivel!\n");
 			
 		}
 		
@@ -171,9 +171,9 @@ public class Q1 {
 				System.out.println("Veiculo "+(i + 1)+": ");
 				System.out.println("Marca: "+oVeiculo.marca);
 				System.out.println("Cor:  "+oVeiculo.cor);
-				System.out.println("Ano de fabricação: "+oVeiculo.anoFab);
+				System.out.println("Ano de fabricaÃ§Ã£o: "+oVeiculo.anoFab);
 				System.out.println("Ano do modelo: "+oVeiculo.anoModel);
-				System.out.println("potência do motor: "+oVeiculo.motor1.potency);
+				System.out.println("potÃªncia do motor: "+oVeiculo.motor1.potency);
 				System.out.println("Cilindradas do motor: "+oVeiculo.motor1.cilindros+" \n\n\n");
 				
 				
@@ -195,7 +195,7 @@ public class Q1 {
 			
 		} else {
 			
-			System.out.println("Veiculo não encontrado");
+			System.out.println("Veiculo nÃ£o encontrado");
 			
 		}
 		
